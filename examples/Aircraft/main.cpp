@@ -1,8 +1,3 @@
-# UAV_utils
-[![PlatformIO Registry](https://badges.registry.platformio.org/packages/themladypan/library/UAV_utils.svg)](https://registry.platformio.org/libraries/themladypan/UAV_utils)
-
-## Example
-```cpp
 #include <Arduino.h>
 #include <chrono>
 #include "esp_log.h"
@@ -141,5 +136,3 @@ void loop() {
         }
     }
 }
-
-```
