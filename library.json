@@ -1,6 +1,6 @@
 {
   "name": "UAV_utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "UAV utils library to help with creation of your own Unmanned Aerial Vehicle",
   "keywords": "log, logging, debugging",
   "repository":
