@@ -1,0 +1,25 @@
+{
+  "name": "UAV_utils",
+  "version": "0.0.1",
+  "description": "UAV utils library to help with creation of your own Unmanned Aerial Vehicle",
+  "keywords": "log, logging, debugging",
+  "repository":
+  {
+    "type": "git",
+    "url": ""
+  },
+  "authors":
+  [
+    {
+      "name": "Stanislav Rubint",
+      "email": "stanislav@rubint.sk",
+      "url": "https://instagram.com/themladypan"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "http://rubint.sk",
+  "dependencies": {
+  },
+  "frameworks": "arduino, esp-idf",
+  "platforms": "espressif32"
+}
