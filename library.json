@@ -1,6 +1,6 @@
 {
   "name": "UAV_utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "UAV utils library to help with creation of your own Unmanned Aerial Vehicle",
   "keywords": "log, logging, debugging",
   "repository":
@@ -19,6 +19,11 @@
   "license": "MIT",
   "homepage": "http://rubint.sk",
   "dependencies": {
+    "emotibit/EmotiBit BMI160@^": "0.3.3",
+    "bmellink/IBusBM@": "^1.1.4",
+    "dimag0g/PPM-reader@": "^1.2.0",
+    "hideakitai/ArduinoEigen@": "^0.2.3",
+    "madhephaestus/ESP32Servo@" :"^0.13.0"
   },
   "frameworks": "arduino, esp-idf",
   "platforms": "espressif32"
