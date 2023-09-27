@@ -20,6 +20,8 @@ public:
      */
     IServo(uint8_t pin);
 
+    IServo(uint8_t pin, uint32_t min_us, uint32_t max_us);
+
     /**
      * @brief Set the angle in degrees
      * 

@@ -7,6 +7,10 @@ IServo::IServo(uint8_t pin) {
     ServoImpl.attach(pin, MIN_PULSE_WIDTH, MAX_PULSE_WIDTH);
 }
 
+IServo::IServo(uint8_t pin, uint32_t min_us, uint32_t max_us) {
+    ServoImpl.attach(pin, min_us, max_us);
+}
+
 void IServo::set_angle(float angle) {
     int angle_us = static_cast<int>(mapf(angle, -90, 90, MIN_PULSE_WIDTH, MAX_PULSE_WIDTH));
     ESP_LOGD("IServo", "Setting servo to %dus", angle_us);
