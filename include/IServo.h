@@ -10,6 +10,9 @@
  * @brief Servo class 
  */
 class IServo {
+private:
+    uint32_t _min_us;
+    uint32_t _max_us;
 public:
     IServo() { };
 
